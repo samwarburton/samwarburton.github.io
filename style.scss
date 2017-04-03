@@ -298,6 +298,35 @@ footer {
 
 }
 
+.is_primary {
+
+  h1, h2, a {
+    color: white;
+  }
+
+  background: linear-gradient(270deg, #53ef56, #115dc0);
+background-size: 400% 400%;
+
+-webkit-animation: gradient-animation 14s ease infinite;
+-moz-animation: gradient-animation 14s ease infinite;
+animation: gradient-animation 14s ease infinite;
+
+@-webkit-keyframes gradient-animation {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+@-moz-keyframes gradient-animation {
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+@keyframes gradient-animation { 
+    0%{background-position:25% 0%}
+    50%{background-position:76% 100%}
+    100%{background-position:25% 0%}
+}
+}
 
 
 
@@ -305,6 +334,8 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
 
 
 
