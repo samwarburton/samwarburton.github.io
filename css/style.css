@@ -11,10 +11,14 @@ background-size: 400% 400%;
 -moz-animation: AnimationName 30s ease infinite;
 animation: AnimationName 30s ease infinite;
 
-padding-top: 25%;
+padding-top: 20%;
 padding-bottom: 25%;
 color: white;
 
+}
+
+hr {
+	width: 15%;
 }
 
 
@@ -39,4 +43,8 @@ color: white;
 	font-family: 'Great Vibes', cursive;
 	font-weight: 30;
 
+}
+
+.jumbotron a {
+	color: white;
 }
