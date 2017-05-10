@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+
+
+.jumbotron{
+
+background: linear-gradient(313deg, #2196f3, #f44336);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+padding-top: 25%;
+padding-bottom: 25%;
+color: white;
+
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+
+.jumbotron h1 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: 30;
+
+}
